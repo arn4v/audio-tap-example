@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		472199892C0B950500F5107C /* audio_tap_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472199882C0B950500F5107C /* audio_tap_exampleApp.swift */; };
+		4721998B2C0B950500F5107C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721998A2C0B950500F5107C /* ContentView.swift */; };
+		4721998D2C0B950600F5107C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4721998C2C0B950600F5107C /* Assets.xcassets */; };
+		472199902C0B950600F5107C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4721998F2C0B950600F5107C /* Preview Assets.xcassets */; };
+		4721999B2C0B950600F5107C /* audio_tap_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721999A2C0B950600F5107C /* audio_tap_exampleTests.swift */; };
+		472199A52C0B950600F5107C /* audio_tap_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472199A42C0B950600F5107C /* audio_tap_exampleUITests.swift */; };
+		472199A72C0B950600F5107C /* audio_tap_exampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472199A62C0B950600F5107C /* audio_tap_exampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		472199972C0B950600F5107C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4721997D2C0B950500F5107C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472199842C0B950500F5107C;
+			remoteInfo = "audio-tap-example";
+		};
+		472199A12C0B950600F5107C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4721997D2C0B950500F5107C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472199842C0B950500F5107C;
+			remoteInfo = "audio-tap-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		472199852C0B950500F5107C /* audio-tap-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "audio-tap-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472199882C0B950500F5107C /* audio_tap_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio_tap_exampleApp.swift; sourceTree = "<group>"; };
+		4721998A2C0B950500F5107C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4721998C2C0B950600F5107C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4721998F2C0B950600F5107C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		472199912C0B950600F5107C /* audio_tap_example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = audio_tap_example.entitlements; sourceTree = "<group>"; };
+		472199962C0B950600F5107C /* audio-tap-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "audio-tap-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4721999A2C0B950600F5107C /* audio_tap_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio_tap_exampleTests.swift; sourceTree = "<group>"; };
+		472199A02C0B950600F5107C /* audio-tap-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "audio-tap-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472199A42C0B950600F5107C /* audio_tap_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio_tap_exampleUITests.swift; sourceTree = "<group>"; };
+		472199A62C0B950600F5107C /* audio_tap_exampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio_tap_exampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		472199822C0B950500F5107C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472199932C0B950600F5107C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4721999D2C0B950600F5107C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4721997C2C0B950500F5107C = {
+			isa = PBXGroup;
+			children = (
+				472199872C0B950500F5107C /* audio-tap-example */,
+				472199992C0B950600F5107C /* audio-tap-exampleTests */,
+				472199A32C0B950600F5107C /* audio-tap-exampleUITests */,
+				472199862C0B950500F5107C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		472199862C0B950500F5107C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				472199852C0B950500F5107C /* audio-tap-example.app */,
+				472199962C0B950600F5107C /* audio-tap-exampleTests.xctest */,
+				472199A02C0B950600F5107C /* audio-tap-exampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		472199872C0B950500F5107C /* audio-tap-example */ = {
+			isa = PBXGroup;
+			children = (
+				472199882C0B950500F5107C /* audio_tap_exampleApp.swift */,
+				4721998A2C0B950500F5107C /* ContentView.swift */,
+				4721998C2C0B950600F5107C /* Assets.xcassets */,
+				472199912C0B950600F5107C /* audio_tap_example.entitlements */,
+				4721998E2C0B950600F5107C /* Preview Content */,
+			);
+			path = "audio-tap-example";
+			sourceTree = "<group>";
+		};
+		4721998E2C0B950600F5107C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4721998F2C0B950600F5107C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		472199992C0B950600F5107C /* audio-tap-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4721999A2C0B950600F5107C /* audio_tap_exampleTests.swift */,
+			);
+			path = "audio-tap-exampleTests";
+			sourceTree = "<group>";
+		};
+		472199A32C0B950600F5107C /* audio-tap-exampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				472199A42C0B950600F5107C /* audio_tap_exampleUITests.swift */,
+				472199A62C0B950600F5107C /* audio_tap_exampleUITestsLaunchTests.swift */,
+			);
+			path = "audio-tap-exampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		472199842C0B950500F5107C /* audio-tap-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472199AA2C0B950600F5107C /* Build configuration list for PBXNativeTarget "audio-tap-example" */;
+			buildPhases = (
+				472199812C0B950500F5107C /* Sources */,
+				472199822C0B950500F5107C /* Frameworks */,
+				472199832C0B950500F5107C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "audio-tap-example";
+			productName = "audio-tap-example";
+			productReference = 472199852C0B950500F5107C /* audio-tap-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472199952C0B950600F5107C /* audio-tap-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472199AD2C0B950600F5107C /* Build configuration list for PBXNativeTarget "audio-tap-exampleTests" */;
+			buildPhases = (
+				472199922C0B950600F5107C /* Sources */,
+				472199932C0B950600F5107C /* Frameworks */,
+				472199942C0B950600F5107C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				472199982C0B950600F5107C /* PBXTargetDependency */,
+			);
+			name = "audio-tap-exampleTests";
+			productName = "audio-tap-exampleTests";
+			productReference = 472199962C0B950600F5107C /* audio-tap-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4721999F2C0B950600F5107C /* audio-tap-exampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472199B02C0B950600F5107C /* Build configuration list for PBXNativeTarget "audio-tap-exampleUITests" */;
+			buildPhases = (
+				4721999C2C0B950600F5107C /* Sources */,
+				4721999D2C0B950600F5107C /* Frameworks */,
+				4721999E2C0B950600F5107C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				472199A22C0B950600F5107C /* PBXTargetDependency */,
+			);
+			name = "audio-tap-exampleUITests";
+			productName = "audio-tap-exampleUITests";
+			productReference = 472199A02C0B950600F5107C /* audio-tap-exampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4721997D2C0B950500F5107C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					472199842C0B950500F5107C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					472199952C0B950600F5107C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 472199842C0B950500F5107C;
+					};
+					4721999F2C0B950600F5107C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 472199842C0B950500F5107C;
+					};
+				};
+			};
+			buildConfigurationList = 472199802C0B950500F5107C /* Build configuration list for PBXProject "audio-tap-example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4721997C2C0B950500F5107C;
+			productRefGroup = 472199862C0B950500F5107C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				472199842C0B950500F5107C /* audio-tap-example */,
+				472199952C0B950600F5107C /* audio-tap-exampleTests */,
+				4721999F2C0B950600F5107C /* audio-tap-exampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		472199832C0B950500F5107C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472199902C0B950600F5107C /* Preview Assets.xcassets in Resources */,
+				4721998D2C0B950600F5107C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472199942C0B950600F5107C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4721999E2C0B950600F5107C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		472199812C0B950500F5107C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4721998B2C0B950500F5107C /* ContentView.swift in Sources */,
+				472199892C0B950500F5107C /* audio_tap_exampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472199922C0B950600F5107C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4721999B2C0B950600F5107C /* audio_tap_exampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4721999C2C0B950600F5107C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472199A72C0B950600F5107C /* audio_tap_exampleUITestsLaunchTests.swift in Sources */,
+				472199A52C0B950600F5107C /* audio_tap_exampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		472199982C0B950600F5107C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 472199842C0B950500F5107C /* audio-tap-example */;
+			targetProxy = 472199972C0B950600F5107C /* PBXContainerItemProxy */;
+		};
+		472199A22C0B950600F5107C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 472199842C0B950500F5107C /* audio-tap-example */;
+			targetProxy = 472199A12C0B950600F5107C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		472199A82C0B950600F5107C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		472199A92C0B950600F5107C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		472199AB2C0B950600F5107C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "audio-tap-example/audio_tap_example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"audio-tap-example/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J2W66BACE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devgould.audio-tap-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		472199AC2C0B950600F5107C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "audio-tap-example/audio_tap_example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"audio-tap-example/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J2W66BACE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devgould.audio-tap-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		472199AE2C0B950600F5107C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J2W66BACE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devgould.audio-tap-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audio-tap-example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/audio-tap-example";
+			};
+			name = Debug;
+		};
+		472199AF2C0B950600F5107C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J2W66BACE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devgould.audio-tap-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audio-tap-example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/audio-tap-example";
+			};
+			name = Release;
+		};
+		472199B12C0B950600F5107C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J2W66BACE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devgould.audio-tap-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "audio-tap-example";
+			};
+			name = Debug;
+		};
+		472199B22C0B950600F5107C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J2W66BACE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devgould.audio-tap-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "audio-tap-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		472199802C0B950500F5107C /* Build configuration list for PBXProject "audio-tap-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472199A82C0B950600F5107C /* Debug */,
+				472199A92C0B950600F5107C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472199AA2C0B950600F5107C /* Build configuration list for PBXNativeTarget "audio-tap-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472199AB2C0B950600F5107C /* Debug */,
+				472199AC2C0B950600F5107C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472199AD2C0B950600F5107C /* Build configuration list for PBXNativeTarget "audio-tap-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472199AE2C0B950600F5107C /* Debug */,
+				472199AF2C0B950600F5107C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472199B02C0B950600F5107C /* Build configuration list for PBXNativeTarget "audio-tap-exampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472199B12C0B950600F5107C /* Debug */,
+				472199B22C0B950600F5107C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4721997D2C0B950500F5107C /* Project object */;
+}
