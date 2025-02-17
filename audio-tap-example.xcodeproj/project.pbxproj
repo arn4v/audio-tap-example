@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		472199892C0B950500F5107C /* audio_tap_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472199882C0B950500F5107C /* audio_tap_exampleApp.swift */; };
-		4721998B2C0B950500F5107C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721998A2C0B950500F5107C /* ContentView.swift */; };
 		4721998D2C0B950600F5107C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4721998C2C0B950600F5107C /* Assets.xcassets */; };
 		472199902C0B950600F5107C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4721998F2C0B950600F5107C /* Preview Assets.xcassets */; };
 		4721999B2C0B950600F5107C /* audio_tap_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721999A2C0B950600F5107C /* audio_tap_exampleTests.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		472199852C0B950500F5107C /* audio-tap-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "audio-tap-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		472199882C0B950500F5107C /* audio_tap_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio_tap_exampleApp.swift; sourceTree = "<group>"; };
-		4721998A2C0B950500F5107C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4721998C2C0B950600F5107C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4721998F2C0B950600F5107C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		472199912C0B950600F5107C /* audio_tap_example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = audio_tap_example.entitlements; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 			children = (
 				472199B32C0BCC7F00F5107C /* Info.plist */,
 				472199882C0B950500F5107C /* audio_tap_exampleApp.swift */,
-				4721998A2C0B950500F5107C /* ContentView.swift */,
 				4721998C2C0B950600F5107C /* Assets.xcassets */,
 				472199912C0B950600F5107C /* audio_tap_example.entitlements */,
 				4721998E2C0B950600F5107C /* Preview Content */,
@@ -261,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4721998B2C0B950500F5107C /* ContentView.swift in Sources */,
 				472199892C0B950500F5107C /* audio_tap_exampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +423,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"audio-tap-example/Preview Content\"";
-				DEVELOPMENT_TEAM = 2J2W66BACE;
+				DEVELOPMENT_TEAM = 2TXXGXQ3AN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -455,7 +451,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"audio-tap-example/Preview Content\"";
-				DEVELOPMENT_TEAM = 2J2W66BACE;
+				DEVELOPMENT_TEAM = 2TXXGXQ3AN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
